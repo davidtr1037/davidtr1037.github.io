@@ -12,6 +12,6 @@ My main research topics are:
 - Symbolic execution
 - Static analysis
 
-I also have a industrial experience in _cyber security_:
-- Reverse engineering
+I also have an industrial experience in _cyber security_:
 - Automatic malware analysis
+- Reverse engineering
