@@ -233,36 +233,25 @@ klee -libc=uclibc -search=dfs -allocate-determ -allocate-determ-start-address=0x
 
 #### Benchmarks
 
-The benchmarks are located at the __root__/benchmarks directory.
-The bitcode files (.bc) of the programs are already built.
-If needed, you can build them as follows:
-
-m4:
+First, clone the benchmarks repository:
 ```
+git clone https://github.com/davidtr1037/klee-mm-benchmarks <benchmarks-dir>
+```
+Build the .bc files:
+```
+cd <benchmarks-dir>/m4
 make all
-```
-make:
-```
+cd <benchmarks-dir>/make
 make all
-```
-sqlite:
-```
+cd <benchmarks-dir>/sqlite
 make all
-```
-apr:
-```
+cd <benchmarks-dir>/apr
 make test_driver.bc
-```
-gas (GNU assembler):
-```
+cd <benchmarks-dir>/binutils
 make all
-```
-libxml2:
-```
+cd <benchmarks-dir>/libxml2
 make test_driver.bc
-```
-coreutils:
-```
+cd <benchmarks-dir>/coreutils
 make all
 ./extract.sh
 ```
