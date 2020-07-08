@@ -12,9 +12,9 @@ The source code is available here: <https://github.com/davidtr1037/klee-ram>.
 #### Environment
 
 The experiments were run on a Ubuntu 16.04 machine, with Intel i7-6700 processor (8 cores) and 32GB of RAM.
-Note that building LLVM takes usualy 15-30 minutes (depending on your hardware and how many cores you use),
-so please take that into considiration.
-The rest of the dependencis are built relatively quickly.
+Note that building LLVM takes usually 15-30 minutes (depending on your hardware and how many cores you use),
+so please take that into consideration.
+The rest of the dependencies are built relatively quickly.
 
 #### Build & Install
 Install the following packages, using:
