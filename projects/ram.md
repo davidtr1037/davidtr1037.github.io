@@ -256,6 +256,7 @@ make all
 ./extract.sh
 ```
 
+<!--
 #### Traces
 
 We provide the traces for our experiments in __TBD__.
@@ -294,19 +295,21 @@ The directory __traces/split__ contains output directories of the form _out-spli
 ```
 python parse_opts.py traces/split
 ```
+-->
+
 #### Experiments
 
 __Configuration__
 
 First, initialize the output directory which will contain the results of the experiments (klee-out directories):
 ```
-<root>/benchmarks/init_artifact_dir.sh <full-path-to-new-output-dir>
+<benchmarks-dir>/init_artifact_dir.sh <full-path-to-new-output-dir>
 ```
-Before running the experiments, we will need to set some variables in __root__/benchmarks/config.sh:
+Before running the experiments, we will need to set some variables in `<benchmarks-dir>/config.sh`:
 ```
-VANILLA_KLEE=<root>/code/klee-vanilla-build/bin/klee
-KLEE_SMM=<root>/code/klee-smm-build/bin/klee
-KLEE=<root>/code/klee-tool-build/bin/klee
+VANILLA_KLEE=<vanilla-build-dir>/bin/klee
+KLEE_SMM=<smm-build-dir>/bin/klee
+KLEE=<tool-build-dir>/bin/klee
 ARTIFACT_DIR=<full-path-to-new-output-dir>
 ```
 
@@ -314,11 +317,11 @@ __Correctness and overhead__
 
 Run the following command:
 ```
-<root>/benchmarks/run_overhead_all.sh
+<benchmarks-dir>/run_overhead_all.sh
 ```
 To parse the results:
 ```
-python parse_overhead.py <full-path-to-new-output-dir>/overhead
+python <benchmarks-dir>/parse_overhead.py <full-path-to-new-output-dir>/overhead
 ```
 
 __Merging__
@@ -326,41 +329,41 @@ __Merging__
 For the experiment related to Table 3, we run in 3 different memory models:
 Forking memory model:
 ```
-<root>/benchmarks/run_fmm_all.sh
+<benchmarks-dir>/run_fmm_all.sh
 ```
 Segmented memory model:
 ```
-<root>/benchmarks/run_smm_all.sh
+<benchmarks-dir>/run_smm_all.sh
 ```
 Dynamically segmented memory model:
 ```
-<root>/benchmarks/run_dsmm_all.sh
+<benchmarks-dir>/run_dsmm_all.sh
 ```
 To parse the results:
 ```
-python parse_models.py <full-path-to-new-output-dir>/merge/models
+python <benchmarks-dir>/parse_models.py <full-path-to-new-output-dir>/merge/models
 ```
 
 __Resolution Queries__
 
 For the experiment related to Table 4, do the following:
 ```
-<root>/benchmarks/run_resolve_all.sh
+<benchmarks-dir>/run_resolve_all.sh
 ```
 To parse the results:
 ```
-python parse_resolve_queries.py <full-path-to-new-output-dir>/merge/resolve-queries
+python <benchmarks-dir>/parse_resolve_queries.py <full-path-to-new-output-dir>/merge/resolve-queries
 ```
 
 __Optimizations__
 
 For the experiment related to Table 5, do the following:
 ```
-<root>/benchmarks/run_opts_all.sh
+<benchmarks-dir>/run_opts_all.sh
 ```
 To parse the results:
 ```
-python parse_opts.py <full-path-to-new-output-dir>/merge/optimizations
+python <benchmarks-dir>/parse_opts.py <full-path-to-new-output-dir>/merge/optimizations
 ```
 
 
@@ -368,9 +371,9 @@ __Splitting__
 
 For the experiment related to Table 7, do the following:
 ```
-<root>/benchmarks/run_split_all.sh
+<benchmarks-dir>/run_split_all.sh
 ```
 To parse the results:
 ```
-python parse_opts.py <full-path-to-new-output-dir>/split
+python <benchmarks-dir>/parse_opts.py <full-path-to-new-output-dir>/split
 ```
