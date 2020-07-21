@@ -15,6 +15,7 @@ International Conference on Software Engineering (ICSE 2018)
 _David Trabish, Noam Rinetzky_  
 ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2020)  
 [<span style="color:grey">[pdf]</span>](/files/issta20-ram.pdf)
+[<span style="color:grey">[slides]</span>](/files/ram-issta20-conf.pdf)
 [<span style="color:grey">[code]</span>](https://github.com/davidtr1037/klee-ram)
 
 <span style="color:#074983">__Past-Sensitive Pointer Analysis for Symbolic Execution__</span>  
