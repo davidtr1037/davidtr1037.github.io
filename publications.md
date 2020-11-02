@@ -21,3 +21,6 @@ ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2020
 <span style="color:#074983">__Past-Sensitive Pointer Analysis for Symbolic Execution__</span>  
 _David Trabish, Timotej Kapus, Noam Rinetzky, Cristian Cadar_  
 ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE 2020)
+[<span style="color:grey">[pdf]</span>](/files/fse20main-p237-p-deb5bc6-47564-final.pdf)
+[<span style="color:grey">[slides]</span>](/files/pspa-fse20.pdf)
+[<span style="color:grey">[code]</span>](https://github.com/davidtr1037/klee-pspa)
