@@ -5,8 +5,7 @@ permalink: /pspa/
 ---
 
 This a pointer analysis framework for symbolic execution applications.
-More details ca be found in this paper:
-The source code (including a replication package) will be released soon.
+For more details, read this paper: <https://davidtr1037.github.io/files/fse20main-p237-p-deb5bc6-47564-final.pdf>
 
 ### Source Code
 The source code is available here: <https://github.com/davidtr1037/klee-pspa>.
