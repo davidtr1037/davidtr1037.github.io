@@ -29,4 +29,5 @@ ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE 2020)
 _David Trabish, Shachar Itzhaky, Noam Rinetzky_  
 IEEE International Conference on Software Testing (ICST 2021)  
 [<span style="color:grey">[pdf]</span>](/files/icst_2021_final.pdf)
+[<span style="color:grey">[slides]</span>](/files/aaqc-icst2021.pdf)
 [<span style="color:grey">[code]</span>](https://github.com/davidtr1037/klee-aaqc)
