@@ -35,7 +35,6 @@ IEEE International Conference on Software Testing (ICST 2021)
 <span style="color:#074983">__A Bounded Symbolic-Size Model for Symbolic Execution__</span>  
 _David Trabish, Shachar Itzhaky, Noam Rinetzky_  
 ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE 2021)  
-[<span style="color:grey">[pdf]</span>](/files/fse20main-p237-p-deb5bc6-47564-final.pdf)
+[<span style="color:grey">[pdf]</span>](/files/fse21main-p547-p-3b9f16ea68-52971-final.pdf)
 [<span style="color:grey">[slides]</span>](/files/fse2021.pdf)
 [<span style="color:grey">[code]</span>](https://github.com/davidtr1037/klee-symsize)
-
