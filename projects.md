@@ -7,3 +7,4 @@ permalink: /projects/
 - [Relocatable Addressing Model](/ram)
 - [Past-Sensitive Pointer Analysis](/pspa)
 - [Address-Aware Query Caching](/aaqc)
+- [Bounded Symbolic-Size Model](/bssm)
