@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Address-Aware Query Cachingfor Symbolic Execution
+title: Address-Aware Query Caching
 permalink: /aaqc/
 ---
 
