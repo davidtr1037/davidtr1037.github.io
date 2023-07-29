@@ -38,3 +38,7 @@ ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE 2021)
 [<span style="color:grey">[pdf]</span>](/files/fse21main-p547-p-3b9f16ea68-52971-final.pdf)
 [<span style="color:grey">[slides]</span>](/files/fse2021.pdf)
 [<span style="color:grey">[code]</span>](https://github.com/davidtr1037/klee-symsize)
+
+<span style="color:#074983">__State Merging with Quantifiers in Symbolic Execution__</span>  
+_David Trabish, Noam Rinetzky, Sharon Shoham, Vaibhav Sharma_  
+To appear in: ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE 2023)  
