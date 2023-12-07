@@ -43,5 +43,5 @@ ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE 2021)
 _David Trabish, Noam Rinetzky, Sharon Shoham, Vaibhav Sharma_  
 ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE 2023)  
 [<span style="color:grey">[pdf]</span>](/files/fse23main-p381-p-20e978691c-72421-final.pdf)
-[<span style="color:grey">[slides]</span>](/files/fse-2023.pdf)
+[<span style="color:grey">[slides]</span>](/files/fse2023.pdf)
 [<span style="color:grey">[code]</span>](https://github.com/davidtr1037/klee-quantifiers)
