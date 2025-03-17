@@ -5,8 +5,9 @@ permalink: /about/
 ---
 
 <img style="float: right; width: 40%" src="/photo.jpg">
-I am a postdoctoral researcher in the Technion,
-under the supervision of Prof. Shachar Itzhaky.
+I am a postdoctoral researcher in Shachar Itzhaky's group at the Technion.
+Before that,
+I was a Ph.D. student at Tel-Aviv university, under the supervision of Prof. Noam Rinetzky.
 
 My main research topics are:
 - Symbolic execution
