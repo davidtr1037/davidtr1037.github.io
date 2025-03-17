@@ -53,6 +53,7 @@ header_pages:
  - about.md
  - publications.md
  - projects.md
+ - service.md
 
 # Build settings
 theme: minima
