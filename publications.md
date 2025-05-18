@@ -4,6 +4,8 @@ title: Publications
 permalink: /publications/
 ---
 
+#### **Conference Papers**
+
 <span style="color:#074983">__Chopped Symbolic Execution__</span>  
 _David Trabish, Andrea Mattavelli, Noam Rinetzky, Cristian Cadar_  
 International Conference on Software Engineering (ICSE 2018)  
@@ -45,3 +47,9 @@ ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE 2023)
 [<span style="color:grey">[pdf]</span>](/files/fse23main-p381-p-20e978691c-72421-final.pdf)
 [<span style="color:grey">[slides]</span>](/files/fse2023.pdf)
 [<span style="color:grey">[code]</span>](https://github.com/davidtr1037/klee-quantifiers)
+
+#### **Ph.D. Thesis**
+
+<span style="color:#074983">__Novel Memory Models for Symbolic Execution__</span>  
+[<span style="color:grey">[pdf]</span>](/files/phd-thesis.pdf)
+[<span style="color:grey">[slides]</span>](/files/phd-thesis-slides.pdf)
