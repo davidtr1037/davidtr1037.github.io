@@ -54,6 +54,7 @@ header_pages:
  - publications.md
  - projects.md
  - service.md
+ - paintings.md
 
 # Build settings
 theme: minima
