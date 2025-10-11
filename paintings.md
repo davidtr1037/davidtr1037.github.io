@@ -75,6 +75,8 @@ permalink: /paintings/
 }
 </style>
 
+### *Acrylic Paintings*
+
 <div class="gallery">
   <img src="{{ '/paintings/painting_1.jpg' | relative_url }}" alt="Painting 1" onclick="openLightbox(this)">
   <img src="{{ '/paintings/painting_2.jpg' | relative_url }}" alt="Painting 2" onclick="openLightbox(this)">
