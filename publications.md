@@ -50,7 +50,7 @@ FSE 2023
 
 <span style="color:#074983">__Enhancing Symbolic Execution with Machine-Checked Safety Proofs__</span>  
 _David Trabish, Shachar Itzhaky_  
-To appear in CPP 2026  
+To appear in POPL/CPP 2026  
 
 #### **Ph.D. Thesis**
 
