@@ -50,7 +50,9 @@ FSE 2023
 
 <span style="color:#074983">__Enhancing Symbolic Execution with Machine-Checked Safety Proofs__</span>  
 _David Trabish, Shachar Itzhaky_  
-To appear in POPL/CPP 2026  
+POPL/CPP 2026  
+[<span style="color:grey">[pdf]</span>](/files/cpp2026.pdf)
+[<span style="color:grey">[code]</span>](https://github.com/davidtr1037/klee-rocq)
 
 #### **Ph.D. Thesis**
 
