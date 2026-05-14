@@ -5,17 +5,20 @@ permalink: /about/
 ---
 
 <img style="float: right; width: 40%" src="/photo_2.jpg">
-I am a postdoctoral researcher at the Technion, under the supervision of Prof. Shachar Itzhaky.
+I am a _Research Fellow_ at the National University of Singapore, under the supervision of Prof. Abhik Roychoudhury.
+Before that, I was a _Postdoctoral Researcher_ at the Technion, under the supervision of Prof. Shachar Itzhaky.
 Before that, I was a Ph.D. student at Tel-Aviv University, under the supervision of Prof. Noam Rinetzky.
 
 My main research topics are:
 - Symbolic execution
-- Proof Assistants
+- Verification
+- Proof assistants
 - Static analysis
 
-I also have an industrial experience in _cyber security_:
-- Automatic malware analysis
+I have extensive industrial experience in _cyber security_:
+- Malware analysis
 - Reverse engineering
+- Vulnerability research
 
 <style>
 .contact-bar {
