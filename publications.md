@@ -10,6 +10,7 @@ permalink: /publications/
 _David Trabish, Shachar Itzhaky_  
 POPL/CPP 2026  
 [<span style="color:grey">[pdf]</span>](/files/cpp2026.pdf)
+[<span style="color:grey">[slides]</span>](/files/klee-rocq.pdf)
 [<span style="color:grey">[code]</span>](https://github.com/davidtr1037/klee-rocq)
 
 <span style="color:#074983">__State Merging with Quantifiers in Symbolic Execution__</span>  
