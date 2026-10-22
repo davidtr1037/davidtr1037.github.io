@@ -97,7 +97,7 @@ a:hover { color: $red; text-decoration: none; }
 .portfolio-content { margin-left: 0; }
 .portfolio-content h4 {
   margin: 28px 0 10px;
-  color: #8c8c8c;
+  color: #757575;
   font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: .1em;
@@ -126,7 +126,7 @@ a:hover { color: $red; text-decoration: none; }
 .portfolio-publications p a.publication-resource:hover,
 .portfolio-publications p a.publication-resource:focus-visible,
 .post-content a.publication-resource:hover,
-.post-content a.publication-resource:focus-visible { color: #454545; }
+.post-content a.publication-resource:focus-visible { color: $red; }
 .portfolio-publications p span[style] { color: inherit !important; }
 .portfolio-projects ul { margin: 0; list-style: none; }
 .portfolio-projects li { margin: 0; border-bottom: 1px solid $rule; }

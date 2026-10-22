@@ -8,7 +8,7 @@ permalink: /publications/
 
 **Enhancing Symbolic Execution with Machine-Checked Safety Proofs**  
 _David Trabish, Shachar Itzhaky_  
-POPL/CPP 2026  
+CPP 2026  
 [pdf](/files/cpp2026.pdf){: .publication-resource }
 [slides](/files/klee-rocq.pdf){: .publication-resource }
 [code](https://github.com/davidtr1037/klee-rocq){: .publication-resource }
