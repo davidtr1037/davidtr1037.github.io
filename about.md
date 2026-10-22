@@ -19,19 +19,19 @@ portfolio: true
 
   {% assign publications_page = site.pages | where: "path", "publications.md" | first %}
   <section class="portfolio-section" id="publications" aria-labelledby="publications-heading">
-    <div class="portfolio-section-heading"><span class="portfolio-number">01</span><h2 id="publications-heading">Publications</h2></div>
+    <div class="portfolio-section-heading"><h2 id="publications-heading">Publications</h2></div>
     <div class="portfolio-content portfolio-publications">{{ publications_page.content | markdownify }}</div>
   </section>
 
   {% assign projects_page = site.pages | where: "path", "projects.md" | first %}
   <section class="portfolio-section" id="projects" aria-labelledby="projects-heading">
-    <div class="portfolio-section-heading"><span class="portfolio-number">02</span><h2 id="projects-heading">Open-source projects</h2></div>
+    <div class="portfolio-section-heading"><h2 id="projects-heading">Open-source projects</h2></div>
     <div class="portfolio-content portfolio-projects">{{ projects_page.content | markdownify }}</div>
   </section>
 
   {% assign service_page = site.pages | where: "path", "service.md" | first %}
   <section class="portfolio-section" id="service" aria-labelledby="service-heading">
-    <div class="portfolio-section-heading"><span class="portfolio-number">03</span><h2 id="service-heading">Service</h2></div>
+    <div class="portfolio-section-heading"><h2 id="service-heading">Service</h2></div>
     <div class="portfolio-content portfolio-service">{{ service_page.content | markdownify }}</div>
   </section>
 

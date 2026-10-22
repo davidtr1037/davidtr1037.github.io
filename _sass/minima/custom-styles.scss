@@ -92,10 +92,8 @@ a:hover { color: $red; text-decoration: none; }
 .portfolio-portrait img { display: block; width: 100%; height: auto; aspect-ratio: 6 / 7; object-fit: cover; }
 
 .portfolio-section { border-top: 1px solid $ink; padding: 27px 28px 38px; scroll-margin-top: 22px; }
-.portfolio-section-heading { display: flex; gap: 31px; align-items: baseline; }
 .portfolio-section-heading h2 { margin-bottom: 19px; }
-.portfolio-number { color: $red; font-size: 1.16rem; font-weight: 800; line-height: 1; }
-.portfolio-content { margin-left: 56px; }
+.portfolio-content { margin-left: 0; }
 .portfolio-content h4 {
   margin: 28px 0 10px;
   color: #5c5b57;
@@ -118,7 +116,16 @@ a:hover { color: $red; text-decoration: none; }
 .portfolio-service p:last-child { border-bottom: 0; }
 .portfolio-publications p strong { font-weight: 700; }
 .portfolio-publications p em { color: #62615e; }
-.portfolio-publications p a { color: $red; font-size: .85rem; font-weight: 650; }
+.portfolio-publications p a.publication-resource,
+.post-content a.publication-resource {
+  color: #92928f;
+  font-size: .85rem;
+  font-weight: 650;
+}
+.portfolio-publications p a.publication-resource:hover,
+.portfolio-publications p a.publication-resource:focus-visible,
+.post-content a.publication-resource:hover,
+.post-content a.publication-resource:focus-visible { color: #454545; }
 .portfolio-publications p span[style] { color: inherit !important; }
 .portfolio-projects ul { margin: 0; list-style: none; }
 .portfolio-projects li { margin: 0; border-bottom: 1px solid $rule; }
@@ -157,8 +164,6 @@ a:hover { color: $red; text-decoration: none; }
   .portfolio-about { grid-template-columns: 1fr; gap: 28px; padding: 48px 0; }
   .portfolio-portrait { width: min(100%, 280px); }
   .portfolio-section { padding: 27px 0 38px; }
-  .portfolio-section-heading { gap: 16px; }
-  .portfolio-content { margin-left: 0; }
   .portfolio-contact { margin: 0; }
   .portfolio-contact-links { width: 100%; margin-left: 0; }
   .post { padding: 48px 0; }
