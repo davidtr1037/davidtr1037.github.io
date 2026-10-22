@@ -1,70 +1,47 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
+portfolio: true
 ---
 
-<img style="float: right; width: 40%" src="/photo_2.jpg">
-I am a _Research Fellow_ at the National University of Singapore, under the supervision of Prof. Abhik Roychoudhury.
-Before that, I was a _Postdoctoral Researcher_ at the Technion, under the supervision of Prof. Shachar Itzhaky.
-Before that, I was a _Ph.D. Student_ at Tel-Aviv University, under the supervision of Prof. Noam Rinetzky.
+<div class="portfolio">
+  <section class="portfolio-about" id="about" aria-labelledby="about-heading">
+    <div class="portfolio-about-copy">
+      <h1 class="portfolio-heading" id="about-heading">About</h1>
+      <p>I am a Research Fellow at the National University of Singapore, working with Prof. Abhik Roychoudhury. Previously, I was a postdoctoral researcher at the Technion with Prof. Shachar Itzhaky and a Ph.D. student at Tel Aviv University with Prof. Noam Rinetzky.</p>
+      <p>My research spans symbolic execution, verification, proof assistants, and static analysis. I also have industrial experience in malware analysis, reverse engineering, and vulnerability research.</p>
+    </div>
+    <figure class="portfolio-portrait">
+      <img src="{{ '/photo_2.jpg' | relative_url }}" alt="Portrait of David Trabish" width="360" height="420">
+    </figure>
+  </section>
 
-My main research topics are:
-- Symbolic execution
-- Verification
-- Proof assistants
-- Static analysis
+  {% assign publications_page = site.pages | where: "path", "publications.md" | first %}
+  <section class="portfolio-section" id="publications" aria-labelledby="publications-heading">
+    <div class="portfolio-section-heading"><span class="portfolio-number">01</span><h2 id="publications-heading">Publications</h2></div>
+    <div class="portfolio-content portfolio-publications">{{ publications_page.content | markdownify }}</div>
+  </section>
 
-I have extensive industrial experience in _cyber security_:
-- Malware analysis
-- Reverse engineering
-- Vulnerability research
+  {% assign projects_page = site.pages | where: "path", "projects.md" | first %}
+  <section class="portfolio-section" id="projects" aria-labelledby="projects-heading">
+    <div class="portfolio-section-heading"><span class="portfolio-number">02</span><h2 id="projects-heading">Open-source projects</h2></div>
+    <div class="portfolio-content portfolio-projects">{{ projects_page.content | markdownify }}</div>
+  </section>
 
-<style>
-.contact-bar {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 2rem;
-margin-top: 2rem;
-padding-top: 1rem;
-border-top: 2px solid #ccc;
-}
+  {% assign service_page = site.pages | where: "path", "service.md" | first %}
+  <section class="portfolio-section" id="service" aria-labelledby="service-heading">
+    <div class="portfolio-section-heading"><span class="portfolio-number">03</span><h2 id="service-heading">Service</h2></div>
+    <div class="portfolio-content portfolio-service">{{ service_page.content | markdownify }}</div>
+  </section>
 
-.contact-bar a {
-display: inline-flex;
-align-items: center;
-justify-content: center;
-width: 48px;
-height: 48px;
-border-radius: 50%;
-background: #f5f5f5;
-box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-transition: transform 0.2s, background 0.2s;
-}
-
-.contact-bar a:hover {
-transform: scale(1.1);
-background: #eaeaea;
-}
-
-.contact-bar img {
-width: 24px;
-height: 24px;
-}
-</style>
-
-<div class="contact-bar">
-<a href="mailto:davidtr1037@gmail.com" title="Email">
-<img src="{{ '/icons/email.jpg' | relative_url }}" alt="Email">
-</a>
-<a href="https://github.com/davidtr1037" title="GitHub" target="_blank">
-<img src="{{ '/icons/github.png' | relative_url }}" alt="GitHub">
-</a>
-<a href="https://www.linkedin.com/in/david-trabish-327ab714b/" title="LinkedIn" target="_blank">
-<img src="{{ '/icons/linkedin-icon-logo-png-transparent.webp' | relative_url }}" alt="LinkedIn">
-</a>
-<a href="https://scholar.google.com/citations?user=1r_apAoAAAAJ&hl=en&oi=sra" title="LinkedIn" target="_blank">
-<img src="{{ '/icons/scholar.png' | relative_url }}" alt="GoogleScholar">
-</a>
+  <footer class="portfolio-contact">
+    <strong>Contact</strong>
+    <a href="mailto:davidtr1037@gmail.com">davidtr1037@gmail.com</a>
+    <span class="portfolio-contact-links">
+      <a href="https://github.com/davidtr1037">GitHub</a>
+      <a href="https://www.linkedin.com/in/david-trabish-327ab714b/">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=1r_apAoAAAAJ">Google Scholar</a>
+    </span>
+  </footer>
 </div>
