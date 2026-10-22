@@ -4,9 +4,15 @@ title: Service
 permalink: /service/
 ---
 
-__TOSEM 2024__ (Reviewer)
+#### **Reviewer**
 
-__OOPSLA 2024__ (Subreviewer)
+__OOPSLA 2027 (Round 1)__
 
-__ESOP 2026__ (Subreviewer)
+__TOSEM 2024__
+
+#### **Subreviewer**
+
+__OOPSLA 2024__
+
+__ESOP 2026__
 
