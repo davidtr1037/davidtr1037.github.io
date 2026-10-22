@@ -25,7 +25,7 @@ portfolio: true
 
   {% assign projects_page = site.pages | where: "path", "projects.md" | first %}
   <section class="portfolio-section" id="projects" aria-labelledby="projects-heading">
-    <div class="portfolio-section-heading"><h2 id="projects-heading">Open-source projects</h2></div>
+    <div class="portfolio-section-heading"><h2 id="projects-heading">Open Source Projects</h2></div>
     <div class="portfolio-content portfolio-projects">{{ projects_page.content | markdownify }}</div>
   </section>
 
