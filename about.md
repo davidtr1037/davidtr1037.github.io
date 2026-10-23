@@ -9,7 +9,7 @@ portfolio: true
   <section class="portfolio-about" id="about" aria-labelledby="about-heading">
     <div class="portfolio-about-copy">
       <h1 class="portfolio-heading" id="about-heading">About</h1>
-      <p>My research spans symbolic execution, verification, proof assistants, and static analysis. I also have industrial experience in malware analysis, reverse engineering, and vulnerability research.</p>
+      <p>My main research interests are <strong>verification</strong>, <strong>symbolic execution</strong>, and <strong>proof assistants</strong>. I also have industry experience in <strong>cybersecurity</strong>, including malware analysis, reverse engineering, and vulnerability research.</p>
       <p>I am a Research Fellow at the National University of Singapore, working with Prof. Abhik Roychoudhury. Previously, I was a postdoctoral researcher at the Technion with Prof. Shachar Itzhaky and a Ph.D. student at Tel Aviv University with Prof. Noam Rinetzky.</p>
     </div>
     <figure class="portfolio-portrait">
