@@ -5,7 +5,7 @@ $red: #bd1f19;
 $rule: #c7c7c1;
 
 html { scroll-behavior: smooth; }
-body { background: $paper; color: $ink; }
+body { background: $paper; color: $ink; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 a, a:visited { color: $ink; }
 a:hover { color: $red; text-decoration: none; }
 
