@@ -9,8 +9,8 @@ portfolio: true
   <section class="portfolio-about" id="about" aria-labelledby="about-heading">
     <div class="portfolio-about-copy">
       <h1 class="portfolio-heading" id="about-heading">About</h1>
-      <p>I am a Research Fellow at the National University of Singapore, working with Prof. Abhik Roychoudhury. Previously, I was a postdoctoral researcher at the Technion with Prof. Shachar Itzhaky and a Ph.D. student at Tel Aviv University with Prof. Noam Rinetzky.</p>
       <p>My research spans symbolic execution, verification, proof assistants, and static analysis. I also have industrial experience in malware analysis, reverse engineering, and vulnerability research.</p>
+      <p>I am a Research Fellow at the National University of Singapore, working with Prof. Abhik Roychoudhury. Previously, I was a postdoctoral researcher at the Technion with Prof. Shachar Itzhaky and a Ph.D. student at Tel Aviv University with Prof. Noam Rinetzky.</p>
     </div>
     <figure class="portfolio-portrait">
       <img src="{{ '/photo_2.jpg' | relative_url }}" alt="Portrait of David Trabish" width="360" height="420">
