@@ -4,7 +4,7 @@ $paper: #f8f7f2;
 $red: #bd5019;
 $blue: #497ce0;
 $blue-dark: #2c55a8;
-$yellow: #d3ac3b;
+$yellow: #e3c000; //#d3ac3b;
 $rule: #c7c7c1;
 
 html { scroll-behavior: smooth; }
@@ -171,7 +171,7 @@ a:hover { color: $red; text-decoration: none; }
 .portfolio-publications .publication-details,
 .post-content .publication-details {
   display: block;
-  border-left: 4px solid $yellow;
+  border-left: 3.5px solid $yellow;
   padding-left: 12px;
   margin-bottom: .25em;
 }
