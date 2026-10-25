@@ -160,6 +160,13 @@ a:hover { color: $red; text-decoration: none; }
 .portfolio-publications p a.publication-resource:focus-visible,
 .post-content a.publication-resource:hover,
 .post-content a.publication-resource:focus-visible { color: $blue-dark; }
+.portfolio-publications p a.publication-resource + a.publication-resource::before,
+.post-content a.publication-resource + a.publication-resource::before {
+  content: "|";
+  color: $rule;
+  margin: 0 .55em;
+  font-weight: 400;
+}
 .portfolio-publications p span[style] { color: inherit !important; }
 .portfolio-projects ul { margin: 0; list-style: none; }
 .portfolio-projects li { margin: 0; border-bottom: 1px solid $rule; }
