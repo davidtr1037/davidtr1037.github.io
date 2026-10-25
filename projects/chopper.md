@@ -11,5 +11,5 @@ The tool is implemented using three open source projects:
 - SVF
 - DG
 
-The code is available [here](https://github.com/davidtr1037/chopper).  
-The instructions for replicating our experiments are available [here](https://srg.doc.ic.ac.uk/projects/chopper/artifact.html).
+The code is available [**here**](https://github.com/davidtr1037/chopper).  
+The instructions for replicating our experiments are available [**here**](https://srg.doc.ic.ac.uk/projects/chopper/artifact.html).
