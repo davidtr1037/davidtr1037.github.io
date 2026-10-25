@@ -4,6 +4,7 @@ $paper: #f8f7f2;
 $red: #bd5019;
 $blue: #497ce0;
 $blue-dark: #2c55a8;
+$yellow: #d3ac3b;
 $rule: #c7c7c1;
 
 html { scroll-behavior: smooth; }
@@ -166,6 +167,16 @@ a:hover { color: $red; text-decoration: none; }
   color: $rule;
   margin: 0 .55em;
   font-weight: 400;
+}
+.portfolio-publications .publication-venue::before,
+.post-content .publication-venue::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: -5px;
+  background: $yellow;
 }
 .portfolio-publications p span[style] { color: inherit !important; }
 .portfolio-projects ul { margin: 0; list-style: none; }
