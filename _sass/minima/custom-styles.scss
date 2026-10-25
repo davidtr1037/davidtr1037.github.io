@@ -208,3 +208,22 @@ a:hover { color: $red; text-decoration: none; }
   .post { padding: 48px 0; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+// The short underline starts at the left edge of each centered label.
+.site-nav .page-link { justify-content: center; }
+.site-nav .page-link:hover,
+.site-nav .page-link:focus-visible { box-shadow: none; color: $blue-dark; }
+.site-nav .page-link::after { display: none; }
+.site-nav .nav-label { position: relative; display: inline-block; }
+.site-nav .nav-label::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: calc(100% + 8px);
+  width: 38px;
+  height: 4px;
+  background: $blue;
+  opacity: 0;
+}
+.site-nav .page-link:hover .nav-label::after,
+.site-nav .page-link:focus-visible .nav-label::after { opacity: 1; }
