@@ -10,7 +10,7 @@ $rule: #c7c7c1;
 html { scroll-behavior: smooth; }
 body { background: $paper; color: $ink; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 a, a:visited { color: $ink; }
-a:hover { color: $red; text-decoration: none; }
+a:hover { color: $blue-dark; text-decoration: none; }
 
 .wrapper { max-width: 1080px; padding-left: 32px; padding-right: 32px; }
 // Single-row Mondrian header with single black rules.
@@ -114,7 +114,7 @@ a:hover { color: $red; text-decoration: none; }
   left: 0;
   bottom: 0;
   width: 38px;
-  height: 4px;
+  height: 6px;
   background: $red;
 }
 .portfolio-about-copy p {
@@ -171,7 +171,7 @@ a:hover { color: $red; text-decoration: none; }
 .portfolio-publications .publication-details,
 .post-content .publication-details {
   display: block;
-  border-left: 3.5px solid $yellow;
+  border-left: 4px solid $yellow;
   padding-left: 12px;
   margin-bottom: .25em;
 }
