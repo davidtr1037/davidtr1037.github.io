@@ -6,10 +6,14 @@ permalink: /publications/
 
 #### **Conference Papers**
 
-<span class="publication-details"><strong>Enhancing Symbolic Execution with Machine-Checked Safety Proofs</strong><br><em>David Trabish, Shachar Itzhaky</em><br><span class="publication-venue">CPP 2026</span></span>
+<span class="publication-details">
+    <strong>Enhancing Symbolic Execution with Machine-Checked Safety Proofs</strong><br>
+    <em>David Trabish, Shachar Itzhaky</em><br>
+    <span class="publication-venue">CPP 2026</span><br>
 [pdf](/files/cpp2026.pdf){: .publication-resource }
 [slides](/files/klee-rocq.pdf){: .publication-resource }
 [code](https://github.com/davidtr1037/klee-rocq){: .publication-resource }
+</span>
 
 <span class="publication-details"><strong>State Merging with Quantifiers in Symbolic Execution</strong><br><em>David Trabish, Noam Rinetzky, Sharon Shoham, Vaibhav Sharma</em><br><span class="publication-venue">FSE 2023</span></span>
 [pdf](/files/fse23main-p381-p-20e978691c-72421-final.pdf){: .publication-resource }
